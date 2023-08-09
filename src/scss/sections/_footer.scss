@@ -1,0 +1,42 @@
+.footer {
+    height: 6rem;
+    padding: 1rem 0;
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+    border-top: .2rem solid var(--color-black);
+
+    .wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;;
+
+        .copyright {
+            a { 
+                font-size: 1.2rem;
+                list-style: 1.4rem;
+            }
+        }
+
+        .social-links {
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+
+            a {
+                margin-left: 1rem;
+                .icon {
+                    width: 3rem;
+                    height: 3rem;
+
+                    svg {
+                        width: 3rem;
+                        height: 3rem;
+                        fill: var(--color-pink);
+                    }
+                }
+            }
+        }
+    }
+}

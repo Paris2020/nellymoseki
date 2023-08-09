@@ -4,6 +4,7 @@
 
 <template>
     <section class="about">
+        <h2>Collaborate with brands and agencies<br /> to create impactful results.</h2>
         <div class="wrapper">
 
             <div class="cards">
@@ -36,18 +37,18 @@
                     </dl>
                 </div>
                 <div class="card">
-                    <icon name="deployment"></icon>
+                    <icon name="seo"></icon>
                     <dl>
-                        <dt>Deployment</dt>
-                        <dd>Getting your applications to you in the most efficient way.</dd>
+                        <dt>SEO</dt>
+                        <dd>Improving the quality and quantity of website traffic to a website.</dd>
                     </dl>
                 </div>
             </div>
 
             <div class="contact">
                 <div class="wrapper">
-                    <h2>Tell me about your next project</h2>
-                    <icon name="email"></icon>
+                    <h2>Tell me about your<br /> next project</h2>
+                    <a href="/" class="btn large clear">Get in touch <icon name="email"></icon></a>
                 </div>
             </div>
         </div>

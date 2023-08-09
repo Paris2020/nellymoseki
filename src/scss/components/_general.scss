@@ -16,7 +16,7 @@ body {
 
 a {
 	cursor: pointer;
-	color: var(--color-white);
+	color: var(--color-grey);
 }
 
 span,
@@ -39,6 +39,7 @@ svg {
 section {
 	position: relative;
 	overflow: hidden;
+	padding: 8rem 0;
 }
 
 .wrapper {
@@ -72,7 +73,7 @@ section {
 h1 {
     font-family: "Cotta", sans-serif;
     font-size: 5.6rem;
-    line-height: 4.6rem;
+    line-height: 6.6rem;
     color: var(--color-white);
 	text-align: center;
 }
@@ -80,7 +81,7 @@ h1 {
 h2 {
     font-family: "Cotta", sans-serif;
     font-size: 4rem;
-    line-height: 3rem;
+    line-height: 4rem;
 	font-weight: var(--font-weight-bold);
     color: var(--color-grey);
 }
@@ -94,8 +95,8 @@ h3 {
 }
 
 h4 {
-	font-size: 1.8rem;
-    line-height: 2rem;
+	font-size: 1.4rem;
+    line-height: 1.8rem;
 	font-weight: var(--font-weight-medium);
     color: var(--color-text);
 	margin-bottom: 1rem;
@@ -138,17 +139,24 @@ p {
 	}
 
 	&.clear {
-		color: var(--color-white);
+		color: var(--color-grey);
 		background-color: transparent;
-		border: 0.2rem solid var(--color-white);
+		border: 0.2rem solid var(--color-grey);
+
+		&:hover {
+			color: var(--color-pink);
+            background-color: transparent;
+            border: 0.2rem solid var(--color-pink);
+        }
 	}
 
     &.unclear {
-        color: var(--color-white);
-        background-color: var(--color-pink);
-        border: transparent;
+        color: var(--color-grey);
+        background-color: var(--color-black_v2);
+        border: .2rem solid var(--color-black);
 
         &:hover {
+			color: var(--color-pink);
             background-color: transparent;
             border: 0.2rem solid var(--color-pink);
         }

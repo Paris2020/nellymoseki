@@ -1,0 +1,135 @@
+// Modal
+.modal-holder {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &.is-closed {
+        .modal-backdrop {
+            animation-name: fadeOut;
+        }
+        .modal {
+            animation-name: modalOut;
+        }
+    }
+    .modal-backdrop {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgb(26 26 26 / 80%);
+        opacity: .8;
+
+        animation-name: fadeIn;
+        animation-timing-function: ease;
+        animation-duration: .2s;
+        animation-fill-mode: both;
+    }
+    .modal {
+        width: 64rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+
+        animation-name: modalIn;
+        animation-timing-function: ease;
+        animation-duration: .2s;
+        animation-fill-mode: both;
+
+        .modal-close {
+            width: 5rem;
+            height: 5rem;
+            position: absolute;
+            top: -1.2rem;
+            right: -3.5rem;
+
+            span {
+                border-radius: 50%;
+                width: 3rem;
+                height: 3rem;
+                display: block;
+                background: var(--color-bg);
+                cursor: pointer;
+                position: relative;
+
+                &:before, &:after  {
+                    content: '';
+                    width: 0.2rem;
+                    height: 1.5rem;
+                    display: block;
+                    position: absolute;
+                    background: var(--color-white);
+                }
+                &:before {
+                    left: 1.4rem;
+                    top: 0.7rem;
+                    transform: rotate(45deg);
+                }
+
+                &:after {
+                    right: 1.4rem;
+                    top: 0.7rem;
+                    transform: rotate(135deg);
+                }
+            }
+        }
+
+        .modal-body {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            background: var(--color-black);
+            line-height: 0;
+            width: 100%;
+            height: 50rem;
+            text-align: center;
+            padding: 1rem;
+        }
+    }
+}
+
+@include break-point(tablet-portrait) {
+    .modal-holder {
+        .modal {
+            width: 100%;
+
+            .modal-close {
+                right: 0.5rem;
+            }
+
+            .modal-body {
+                flex-direction: column;
+                width: 90%;
+                height: 100%;
+
+                .modal-left {
+                    display: none;
+                }
+
+                .modal-right {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+@include break-point(mobile) {
+    .modal-holder {
+        .modal {
+
+            .modal-close {
+                right: -1.5rem;
+            }
+        }
+    }
+}

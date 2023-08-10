@@ -1,5 +1,6 @@
 <script setup>
     import { useIndexStore } from '../store/index';
+
     const store = useIndexStore();
     
     const openModal = () => {

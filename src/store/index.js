@@ -13,8 +13,8 @@ export const useIndexStore = defineStore('IndexStore', {
         },
     },
     actions: {
-        updateModalVisibility(state, value) {
-            state.modalIsVisible = value;
+        updateModalVisibility(value) {
+            this.modalIsVisible = value;
         },
     }
 });

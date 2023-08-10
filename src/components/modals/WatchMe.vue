@@ -1,10 +1,9 @@
 <script setup>
     import {computed, reactive} from "vue";
-    import { useIndexStore } from './store/index';
+    import { useIndexStore } from '/src/store/index.js';
 
     const store = useIndexStore();
 
-    const props = defineProps('modal');
     const state = reactive({
         isClosed: false
     });
@@ -23,7 +22,7 @@
 
     //COMPUTED
     const isVisible = computed(() => {
-        return store.getters['modalShow'];
+        return store.modalShow;
     });
             
 </script>
@@ -35,9 +34,7 @@
         <div class="modal">
             <div class="modal-close" @click="close()"><span></span></div>
             <div class="modal-body">
-                <div class="modal-left">
-                    <h2>Video coming soon...</h2>
-                </div> <!-- end.modal-left -->
+                <h2>Video<br /> coming soon...</h2>
             </div> <!-- end.modal-body -->
         </div> <!-- end.modal -->
     </div> <!-- end.modal-holder -->

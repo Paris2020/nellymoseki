@@ -5,6 +5,7 @@
   import Projects from "./components/Projects.vue";
   import AboutSection from "./components/About.vue";
   import FooterSection from "./components/Footer.vue";
+  import WatchMe from './components/modals/WatchMe.vue';
 </script>
 
 <template>
@@ -12,6 +13,7 @@
     <icon-symbols></icon-symbols>
     <navigation></navigation>
     <header-section></header-section>
+    <watch-me></watch-me>
     <projects></projects>
     <about-section></about-section>
     <footer-section></footer-section>

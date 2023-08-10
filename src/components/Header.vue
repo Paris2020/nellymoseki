@@ -1,5 +1,10 @@
 <script setup>
-
+    import { useIndexStore } from '../store/index';
+    const store = useIndexStore();
+    
+    const openModal = () => {
+        store.updateModalVisibility(true);
+    }
 </script>
 
 <template>
@@ -11,8 +16,9 @@
             </div>
 
             <h4>Salut! My name is Nelly &#128081</h4>
+
             <h1>Building digital<br />products, brands and<br />experience.</h1>
-            <a href="/" class="btn large unclear">Watch me!</a>
+            <a href="#" class="btn large unclear" @click="openModal">Watch me!</a>
         </div>
     </header>
 </template>

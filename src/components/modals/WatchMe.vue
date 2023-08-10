@@ -1,5 +1,8 @@
 <script setup>
     import {computed, reactive} from "vue";
+    import { useIndexStore } from './store/index';
+
+    const store = useIndexStore();
 
     const props = defineProps('modal');
     const state = reactive({
@@ -12,7 +15,7 @@
 
         setTimeout(() => {
 
-            store.commit('updateModalVisibility', false);
+            store.updateModalVisibility(false);
             state.isClosed = false;
 
         }, 300);
@@ -20,7 +23,7 @@
 
     //COMPUTED
     const isVisible = computed(() => {
-        return store.getters['modalIsVisible'];
+        return store.getters['modalShow'];
     });
             
 </script>

@@ -46,7 +46,7 @@
             </div>
 
             <div class="contact">
-                <div class="wrapper">
+                <div class="wrap">
                     <h2>Tell me about your<br /> next project</h2>
                     <a href="mailto:dineo06.moseki@gmail.com" class="btn large clear" target="_blank">Get in touch <icon name="email"></icon></a>
                 </div>

@@ -2,6 +2,10 @@
     h2 {
         text-align: center;
         margin-bottom: 3rem;
+
+        @include break-point(mobile) {
+            padding: 0 1.5rem;
+        }
     }
 
     .cards {
@@ -9,6 +13,14 @@
         gap: 1rem;
         grid-template-columns: repeat(5, 1fr);
         padding: 3rem 0;
+
+        @include break-point(tablet-portrait) { 
+            grid-template-columns: repeat(3,1fr);
+        }
+
+        @include break-point(mobile) { 
+            grid-template-columns: 1fr;
+        }
 
         .card {
             display: flex;
@@ -20,7 +32,7 @@
             padding: 2rem 2rem 6rem 2rem;
             border: .2rem solid var(--color-border);
             background-color: var(--color-black_v2);
-            box-shadow:0 .1rem .4rem rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+            box-shadow:0 .1rem .4rem rgba(0, 0, 0, 0.3), 0 0 .1rem rgba(0, 0, 0, 0.1);
 
             .icon {
                 margin-bottom: 1.5rem;

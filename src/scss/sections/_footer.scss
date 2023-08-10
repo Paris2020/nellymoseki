@@ -7,15 +7,34 @@
     margin: 0 auto;
     border-top: .2rem solid var(--color-black);
 
+    @include break-point(mobile) {
+        height: auto;
+    }
+
     .wrapper {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        align-items: center;;
+        align-items: center;
+
+        @include break-point(mobile) {
+            grid-template-columns: 1fr;
+        }
 
         .copyright {
-            a { 
-                font-size: 1.2rem;
-                list-style: 1.4rem;
+
+            @include break-point(mobile) {
+                padding-top: 1rem;
+            }
+
+            p { 
+                color: var(--color-grey);
+
+                @include break-point(mobile) {
+                    font-size: 1.2rem;
+                    line-height: 1.4rem;
+                    text-align: center;
+                    padding-bottom: 1rem;
+                }
             }
         }
 
@@ -23,6 +42,11 @@
             display: flex;
             align-items: center;
             justify-content: flex-end;
+
+            @include break-point(mobile) {
+                margin-top: 2rem;
+                justify-content: center;
+            }
 
             a {
                 margin-left: 1rem;

@@ -5,13 +5,24 @@
     padding: 2rem 0;
 
     .projects-wrap {
-        display: flex;
+        display: grid;
         align-items: center;
-        justify-content: center;
+        grid-template-columns: repeat(6, 1fr);
         gap: 1.5rem;
+
+        @include break-point(tablet-portrait) { 
+            grid-template-columns: repeat(3,1fr);
+        }
+
+        @include break-point(mobile) {
+            grid-template-columns: 1fr;
+        }
        
         .project {
-
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
             img {
                 width: 30rem;
                 height: 20rem;

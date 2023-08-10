@@ -81,9 +81,14 @@ h1 {
 h2 {
     font-family: "Cotta", sans-serif;
     font-size: 4rem;
-    line-height: 4rem;
+    line-height: 4.6rem;
 	font-weight: var(--font-weight-bold);
     color: var(--color-grey);
+
+	@include break-point(mobile) {
+		font-size: 3rem;
+    	line-height: 3.6rem;
+	}
 }
 
 h3 {

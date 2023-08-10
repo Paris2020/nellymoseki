@@ -17,6 +17,7 @@ body {
 a {
 	cursor: pointer;
 	color: var(--color-grey);
+	transition: all ease-in-out .3s;
 }
 
 span,

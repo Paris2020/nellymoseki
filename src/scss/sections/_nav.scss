@@ -55,6 +55,13 @@
                 li {
                     color: var(--color-white);
                     font-weight: var(--font-weight-medium);
+
+                    a {
+                        
+                        &:hover {
+                            color: var(--color-pink);
+                        }
+                    }
                 }
             }
 

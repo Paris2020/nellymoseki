@@ -14,9 +14,9 @@
                 </p>
             </div>
             <div class="social-links">
-                <a href="/" target="_blank"><icon name="facebook"></icon></a>
-                <a href="/" target="_blank"><icon name="instagram"></icon></a>
-                <a href="/" target="_blank"><icon name="linkedIn"></icon></a>
+                <a href="https://github.com/Paris2020/" target="_blank"><icon name="github"></icon></a>
+                <a href="https://www.instagram.com/paris2020_/" target="_blank"><icon name="instagram"></icon></a>
+                <a href="https://www.linkedin.com/in/nelly-moseki-11a93170/" target="_blank"><icon name="linkedIn"></icon></a>
             </div>
         </div>
     </footer>

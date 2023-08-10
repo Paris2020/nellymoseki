@@ -4,7 +4,7 @@
 
 <template>
     <section class="about">
-        <h2>Collaborate with brands and agencies<br /> to create impactful results.</h2>
+        <h2>Collaborating with brands and agencies<br /> to create impactful results.</h2>
         <div class="wrapper">
 
             <div class="cards">
@@ -26,21 +26,21 @@
                     <icon name="testing"></icon>
                     <dl>
                         <dt>Testing</dt>
-                        <dd>Ensuring your tests have unique global states.</dd>
+                        <dd>Ensuring your tests have unique global states by running tests designed to ensure correctness of any codebase.</dd>
                     </dl>
                 </div>
                 <div class="card">
                     <icon name="deployment"></icon>
                     <dl>
                         <dt>Deployment</dt>
-                        <dd>Getting your applications to you in the most efficient way.</dd>
+                        <dd>Getting your applications to you in the most robust and efficient way.</dd>
                     </dl>
                 </div>
                 <div class="card">
                     <icon name="seo"></icon>
                     <dl>
                         <dt>SEO</dt>
-                        <dd>Improving the quality and quantity of website traffic to a website.</dd>
+                        <dd>Improving the quality and quantity of website traffic to your website.</dd>
                     </dl>
                 </div>
             </div>
@@ -48,7 +48,7 @@
             <div class="contact">
                 <div class="wrapper">
                     <h2>Tell me about your<br /> next project</h2>
-                    <a href="/" class="btn large clear">Get in touch <icon name="email"></icon></a>
+                    <a href="mailto:dineo06.moseki@gmail.com" class="btn large clear" target="_blank">Get in touch <icon name="email"></icon></a>
                 </div>
             </div>
         </div>

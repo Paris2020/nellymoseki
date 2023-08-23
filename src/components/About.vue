@@ -23,17 +23,10 @@
                     </dl>
                 </div>
                 <div class="card">
-                    <icon name="testing"></icon>
+                    <icon name="social"></icon>
                     <dl>
-                        <dt>Testing</dt>
-                        <dd>Ensuring your tests have unique global states by running tests designed to ensure correctness of any codebase.</dd>
-                    </dl>
-                </div>
-                <div class="card">
-                    <icon name="deployment"></icon>
-                    <dl>
-                        <dt>Deployment</dt>
-                        <dd>Getting your applications to you in the most robust and efficient way.</dd>
+                        <dt>Social Media Management</dt>
+                        <dd>Ensuring that your business reaches all the ends of the earth by using social media platforms that will increase traffic on you website.</dd>
                     </dl>
                 </div>
                 <div class="card">
@@ -41,6 +34,13 @@
                     <dl>
                         <dt>SEO</dt>
                         <dd>Improving the quality and quantity of website traffic to your website.</dd>
+                    </dl>
+                </div>
+                <div class="card">
+                    <icon name="email"></icon>
+                    <dl>
+                        <dt>Email Marketing</dt>
+                        <dd>Getting your applications and business products out there to your target market in the most fashionable way..</dd>
                     </dl>
                 </div>
             </div>

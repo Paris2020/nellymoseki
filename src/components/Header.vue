@@ -13,7 +13,7 @@
         <div class="wrapper">
 
             <div class="profile-pic">
-                <img src="/images/profile.png" width="250" alt="profile photo">
+                <img src="/images/profile.png" width="250" alt="Photo by @siede.lee">
             </div>
 
             <h4>Salut! My name is Nelly &#128081</h4>

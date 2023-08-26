@@ -14,6 +14,7 @@
     <navigation></navigation>
     <header-section></header-section>
     <watch-me></watch-me>
+    <h2 style="margin-bottom: 2rem">I've worked on projects<br />like these and more.</h2>
     <projects></projects>
     <about-section></about-section>
     <footer-section></footer-section>

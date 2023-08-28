@@ -11,14 +11,14 @@
                 <div class="card">
                     <icon name="consultation"></icon>
                     <dl>
-                        <dt>Consultation</dt>
+                        <dt>Consultation & Briefing</dt>
                         <dd>Helping you identify areas of agreement on a number of issues and areas or the overall strategic approach.</dd>
                     </dl>
                 </div>
                 <div class="card">
                     <icon name="development"></icon>
                     <dl>
-                        <dt>development</dt>
+                        <dt>Development</dt>
                         <dd>Bringing your vision to life with the latest technology and design trends.</dd>
                     </dl>
                 </div>
@@ -32,14 +32,14 @@
                 <div class="card">
                     <icon name="seo"></icon>
                     <dl>
-                        <dt>SEO</dt>
+                        <dt>SEO Optimization</dt>
                         <dd>Improving the quality and quantity of website traffic to your website.</dd>
                     </dl>
                 </div>
                 <div class="card">
                     <icon name="email"></icon>
                     <dl>
-                        <dt>Email Marketing</dt>
+                        <dt>Email Templating</dt>
                         <dd>Getting your applications and business products out there to your target market in the most fashionable way..</dd>
                     </dl>
                 </div>

@@ -13,7 +13,7 @@
         <div class="wrapper">
 
             <div class="profile-pic">
-                <img src="/images/profile.png" width="250" alt="Photo by @siede.lee">
+                <img src="/images/profile.jpg" width="250" alt="Photo by @siede.lee">
             </div>
 
             <h4>Salut! I'm Nelly &#128081 <br />Founder: <strong><a href="http://mosekiwebagency.co.za/" target="_blank">Moseki Web Agency</a></strong></h4>

@@ -9,18 +9,18 @@
 </script>
 
 <template>
-  <div class="container">
-    <icon-symbols></icon-symbols>
-    <navigation></navigation>
-    <header-section></header-section>
-    <watch-me></watch-me>
-    <h2 style="margin-bottom: 2rem">I've worked on projects<br />like these and more.</h2>
-    <projects></projects>
-    <about-section></about-section>
-    <footer-section></footer-section>
-  </div>
+    <div class="container">
+        <navigation></navigation>
+        <header-section></header-section>
+        <watch-me></watch-me>
+        <h2 style="margin-bottom: 2rem">I've worked on projects<br />such as these and more.</h2>
+        <projects></projects>
+        <about-section></about-section>
+        <footer-section></footer-section>
+        <icon-symbols></icon-symbols>
+    </div>
 </template>
 
 <style lang="scss">
-  @import 'scss/style'
+    @import 'scss/style'
 </style>

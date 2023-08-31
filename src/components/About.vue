@@ -19,7 +19,7 @@
                     <icon name="development"></icon>
                     <dl>
                         <dt>Development</dt>
-                        <dd>Bringing your vision to life with the latest technology and design trends like Vue, React, Drupal and more.</dd>
+                        <dd>Bringing your vision to life with the latest technology like Vue, React, Drupal and design trends.</dd>
                     </dl>
                 </div>
                 <div class="card">

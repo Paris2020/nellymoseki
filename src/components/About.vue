@@ -19,14 +19,14 @@
                     <icon name="development"></icon>
                     <dl>
                         <dt>Development</dt>
-                        <dd>Bringing your vision to life with the latest technology and design trends.</dd>
+                        <dd>Bringing your vision to life with the latest technology and design trends like Vue, React, Drupal and more.</dd>
                     </dl>
                 </div>
                 <div class="card">
                     <icon name="social"></icon>
                     <dl>
                         <dt>Social Media Management</dt>
-                        <dd>Ensuring that your business reaches all the ends of the earth by using social media platforms that will help increase traffic on you website.</dd>
+                        <dd>Ensuring that your business reaches all the ends of the earth by using social media platforms that will help increase traffic on your website.</dd>
                     </dl>
                 </div>
                 <div class="card">

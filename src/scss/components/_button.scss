@@ -1,0 +1,56 @@
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+  border: 0.2rem solid var(--ink);
+  transition: all ease-in-out 0.2s;
+  font-family: "Bebas Neue", sans-serif;
+  letter-spacing: 0.02em;
+  text-transform: none;
+
+  &.large {
+    width: auto;
+    padding: 1.1rem 2.4rem;
+    font-size: 1.6rem;
+    color: var(--paper);
+    background-color: var(--ink);
+    transform: rotate(-1deg);
+
+    &:hover {
+      transform: rotate(0deg) translateY(-2px);
+      background-color: var(--pink);
+      border-color: var(--ink);
+    }
+  }
+
+  &.small {
+    background-color: transparent;
+    color: var(--ink);
+    border: 0.2rem solid var(--ink);
+    padding: 0.5rem 1.2rem;
+    font-size: 1.2rem;
+  }
+
+  &.clear {
+    color: var(--ink);
+    background-color: transparent;
+    border: 0.2rem solid var(--ink);
+
+    &:hover {
+      color: var(--paper);
+      background-color: var(--pink);
+      border-color: var(--ink);
+    }
+  }
+
+  &.unclear {
+    color: var(--paper);
+    background-color: var(--ink);
+    border: 0.2rem solid var(--ink);
+
+    &:hover {
+      background-color: var(--pink);
+    }
+  }
+}

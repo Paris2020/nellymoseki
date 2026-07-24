@@ -5,14 +5,21 @@
 	--font-weight-medium: 		500;
 	--font-weight-bold: 	    bold;
 
-	--color-white:				#ffffff;
-	--color-black:				#2c2b2b;
-	--color-black_v2:  			#1A1A1A;
-	--color-grey: 				#9a9a9a;
-	--color-red:   				#df1449;
-	--color-bg: 				#242424;
-	--color-purple:   			#483b53;
-	--color-pink:				#995a6a;
-	--color-border: 			#242424;
-	--color-gold:   			#3c3214;
+	// zine palette
+	--paper:			#F6F1E4;
+	--ink:				#161311;
+	--pink:				#FF2E63;
+	--violet:			#4B3AFF;
+	--yellow:			#FFDE59;
+	--grey:				#6B665D;
+	--line:				#161311;
+
+	// kept for anything referencing the old names
+	--color-white:		var(--paper);
+	--color-black:		var(--ink);
+	--color-black_v2:	var(--ink);
+	--color-grey:		var(--grey);
+	--color-bg:			var(--paper);
+	--color-border:		var(--ink);
+	--color-pink:		var(--pink);
 }

@@ -1,33 +1,92 @@
 .projects {
-    background-color: var(--color-black_v2);
-    border-top: .2rem solid var(--color-border);
-    border-bottom: .2rem solid var(--color-border);
-    padding: 2rem 0;
+    padding: 6rem 0 7rem;
+    border-top: 0.3rem solid var(--ink);
+    overflow: visible;
 
-    .projects-wrap {
+    h2 {
+        margin-bottom: 3.5rem;
+        max-width: 26ch;
+    }
+
+    .scrapbook {
+        position: relative;
         display: grid;
-        align-items: center;
-        grid-template-columns: repeat(6, 1fr);
-        gap: 1.5rem;
-        gap: 1.5rem;
-        overflow-y: scroll;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 3.5rem 2rem;
+        padding-top: 1rem;
 
-        @include break-point(tablet-landscape) { 
-            grid-template-columns: repeat(3,1fr);
+        @include break-point(tablet-landscape) {
+            grid-template-columns: repeat(2, 1fr);
         }
 
         @include break-point(mobile) {
             grid-template-columns: 1fr;
-            justify-items: stretch;
         }
-       
-        .project {
-            
-            img {
-                min-width: 30rem;
-                height: 20rem;
-                object-fit: cover;
-                width: 100%;
+
+        .clip {
+            position: relative;
+            display: block;
+            background: #fff;
+            border: 0.2rem solid var(--ink);
+            padding: 0.7rem 0.7rem 2.4rem;
+            box-shadow: 0.6rem 0.7rem 0 var(--ink);
+            transition: transform .25s;
+
+            &:hover {
+                transform: translateY(-6px) rotate(0deg) !important;
+
+                .go {
+                    color: var(--pink);
+                }
+            }
+
+            &:nth-child(6n+1) { transform: rotate(-3deg); }
+            &:nth-child(6n+2) { transform: rotate(2deg); }
+            &:nth-child(6n+3) { transform: rotate(-1.5deg); }
+            &:nth-child(6n+4) { transform: rotate(3deg); }
+            &:nth-child(6n+5) { transform: rotate(-2deg); }
+            &:nth-child(6n+6) { transform: rotate(1deg); }
+
+            .frame {
+                aspect-ratio: 4/3;
+                overflow: hidden;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    object-position: top;
+                }
+            }
+
+            .cap {
+                position: absolute;
+                bottom: 0.6rem;
+                left: 0.9rem;
+                right: 0.9rem;
+                font-family: "Space Mono", monospace;
+                font-size: 1.3rem;
+                font-weight: 700;
+                display: flex;
+                justify-content: space-between;
+                color: var(--ink);
+
+                .go {
+                    transition: color .2s;
+                }
+            }
+
+            .pin {
+                position: absolute;
+                top: -1rem;
+                left: 50%;
+                transform: translateX(-50%);
+                width: 1.6rem;
+                height: 1.6rem;
+                border-radius: 50%;
+                background: var(--violet);
+                box-shadow: 0 3px 5px rgba(0,0,0,0.3);
+                z-index: 2;
             }
         }
     }
